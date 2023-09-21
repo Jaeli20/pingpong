@@ -22,4 +22,4 @@ public class BallController : MonoBehaviour
         float randomDirection =  Random.Range(0,2)*2-1;
         rb.AddForce(new Vector2(3 * randomDirection, 15 * randomDirection) * thrust, ForceMode2D.Force);
     }
-}
+} 
